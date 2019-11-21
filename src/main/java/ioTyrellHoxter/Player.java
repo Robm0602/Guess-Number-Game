@@ -9,6 +9,7 @@ public class Player {
     public int getGuess() {
         System.out.println("Lets Play A Game.  Choose A Number Between 0-100");
         Scanner guess = new Scanner(System.in);
+        System.out.println("Ben Simmons for 3!!!");
         return guess.nextInt();
     }
 }
